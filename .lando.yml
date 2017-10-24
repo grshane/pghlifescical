@@ -1,0 +1,7 @@
+name: pghlifescical
+recipe: pantheon
+config:
+  framework: drupal8
+  env: dev
+  site: pghlifescical
+  id: 46f8f6ea-1cc1-40c5-86a5-9029805d8120
