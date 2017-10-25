@@ -1,0 +1,23 @@
+uuid: b1420f22-f048-4c83-9042-87bb9d498ba7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - macchiato
+id: sitebranding
+theme: macchiato
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

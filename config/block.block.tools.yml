@@ -1,0 +1,24 @@
+uuid: d07fb585-f111-4e84-a35b-e160c7505346
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - macchiato
+id: tools
+theme: macchiato
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
