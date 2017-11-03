@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e36b45e3a3b42fcb80a90717e5178a10",
+    "content-hash": "0c826b9b4df15a73621bd10b34287e3c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2064,6 +2064,11 @@
                 "symfony/phpunit-bridge": "~3.2.8"
             },
             "type": "drupal-core",
+            "extra": {
+                "patches_applied": {
+                    "Addubg Views Suggestions (Twig Debug Fix until 8.5)": "https://www.drupal.org/files/issues/2118743-139-twig-debug-info.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Core\\": "lib/Drupal/Core",
@@ -2187,7 +2192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "62d31ca4e6f4c40460b01ede05cfa4ebe4996f6c"
+                "reference": "d6a715c4b35946a241a669f301885f462e3db740"
             },
             "require": {
                 "drupal/core": "*"
@@ -2198,8 +2203,8 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-beta21+9-dev",
-                    "datestamp": "1509543185",
+                    "version": "8.x-5.0-beta22+4-dev",
+                    "datestamp": "1509672489",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2255,7 +2260,7 @@
                 "source": "http://cgit.drupalcode.org/webform",
                 "issues": "https://drupal.org/project/issues/webform"
             },
-            "time": "2017-11-01T16:36:25+00:00"
+            "time": "2017-11-03T01:27:43+00:00"
         },
         {
             "name": "drush/drush",
@@ -5188,16 +5193,16 @@
         },
         {
             "name": "webflo/drupal-core-strict",
-            "version": "8.4.1",
+            "version": "8.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-core-strict.git",
-                "reference": "a2cb7e113992d6d5075545598f2dee6aa8baf4ae"
+                "reference": "ce354283dd2b72bdd421d9fbd6474070c2ae446e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/a2cb7e113992d6d5075545598f2dee6aa8baf4ae",
-                "reference": "a2cb7e113992d6d5075545598f2dee6aa8baf4ae",
+                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/ce354283dd2b72bdd421d9fbd6474070c2ae446e",
+                "reference": "ce354283dd2b72bdd421d9fbd6474070c2ae446e",
                 "shasum": ""
             },
             "require": {
@@ -5283,7 +5288,7 @@
                 "GPL-2.0+"
             ],
             "description": "Locked core dependencies",
-            "time": "2017-11-01T19:01:45+00:00"
+            "time": "2017-11-03T14:01:57+00:00"
         },
         {
             "name": "webflo/drupal-finder",

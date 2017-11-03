@@ -101,6 +101,11 @@
         ".htaccess",
         "web.config"
       ]
+    },
+    "patches": {
+       "drupal/core": {
+         "Addubg Views Suggestions (Twig Debug Fix until 8.5)": "https://www.drupal.org/files/issues/2118743-139-twig-debug-info.patch"
+        } 
     }
   },
   "config": {
